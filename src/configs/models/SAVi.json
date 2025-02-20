@@ -1,0 +1,51 @@
+{
+    "num_slots": 8,
+    "slot_dim": 128,
+    "num_iterations_first": 3,
+    "num_iterations": 1,
+    "in_channels": 3,
+    "mlp_hidden": 256,
+    "mlp_encoder_dim": 128,
+    "initializer": "LearnedRandom",
+    "transition_module": {
+        "model_name": "TransformerBlock",
+        "num_heads": 4,
+        "mlp_size": 512
+    },
+    "encoder": {
+        "encoder_name": "ConvEncoder",
+        "encoder_params": {
+            "num_channels": [
+                32,
+                32,
+                32,
+                32
+            ],
+            "kernel_size": 5,
+            "resolution": [
+                64,
+                64
+            ],
+            "downsample_encoder": false,
+            "downsample": 2
+        }
+    },
+    "decoder": {
+        "decoder_name": "ConvDecoder",
+        "decoder_params": {
+            "num_channels": [
+                64,
+                64,
+                64,
+                64
+            ],
+            "kernel_size": 5,
+            "resolution": [
+                64,
+                64
+            ],
+            "downsample_decoder": false,
+            "upsample": 1
+        }
+    }
+}

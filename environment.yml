@@ -1,0 +1,28 @@
+name: TextOCVP
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - jupyterlab
+  - pip
+  - python=3.9.12
+  - pytorch=1.11.0=py3.9_cuda11.3_cudnn8.2.0_0
+  - torchvision=0.12.0=py39_cu113
+  - pip:
+    - argparse
+    - opencv-python
+    - tqdm
+    - imageio
+    - matplotlib
+    - scikit-image
+    - scikit-learn
+    - tensorboard
+    - webcolors
+    - decord
+    - transformers
+    - sentencepiece
+    - timm
+    - nltk
+    - piqa==1.2.2
+    - numpy==1.24.3
+    - pillow==9.5.0

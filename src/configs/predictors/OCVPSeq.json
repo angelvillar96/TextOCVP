@@ -1,0 +1,10 @@
+{
+    "predictor_name": "OCVPSeq",
+    "predictor_params": {
+        "token_dim": 128,
+        "hidden_dim": 256,
+        "num_layers": 2,
+        "n_heads": 4,
+        "residual": true
+    }
+}

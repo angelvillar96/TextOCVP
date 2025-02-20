@@ -1,0 +1,12 @@
+
+experiments/*
+!experiments/.gitkeep
+
+datasets/*
+!datasets/.gitkeep
+__pycache__
+
+notebooks
+
+
+aux_convert_checkpoint_*

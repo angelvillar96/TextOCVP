@@ -1,0 +1,10 @@
+{
+    "dataset_name": "CLIPort",
+    "shuffle_train": true,
+    "shuffle_eval": false,
+    "root": "./datasets/CLIPort_PutInBowl",
+    "tokenizer": "T5",
+    "num_frames": 8,
+    "img_size": [336, 336],
+    "random_start": true
+}

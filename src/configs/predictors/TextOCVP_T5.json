@@ -1,0 +1,18 @@
+{
+    "predictor_name": "TextOCVP_T5",
+    "predictor_params": {
+        "predictor_params": {
+            "token_dim": 512,
+            "n_heads": 8,
+            "hidden_dim": 2048,
+            "num_layers": 8,
+            "residual": true
+        },
+        "fusion_params": {
+            "num_heads": 8,
+            "head_dim": 64,
+            "mlp_size": 2048
+        },
+        "text_encoder_params": {}
+    }
+}

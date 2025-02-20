@@ -1,0 +1,10 @@
+{
+    "dataset_name": "CATER_Hard",
+    "shuffle_train": true,
+    "shuffle_eval": false,
+    "root": "./datasets/CATER",
+    "tokenizer": "T5",
+    "num_frames": 8,
+    "img_size": [64, 64],
+    "random_start": true
+}

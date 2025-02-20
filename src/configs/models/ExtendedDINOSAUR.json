@@ -1,0 +1,36 @@
+{
+    "img_size": 336,
+    "in_channels": 3,
+    "num_slots": 10,
+    "slot_dim": 128,
+    "num_iterations_first": 3,
+    "num_iterations": 1,
+    "mlp_hidden": 512,
+    "mlp_encoder_dim": 768,
+    "initializer": "LearnedRandom",
+    "transition_module": {
+        "model_name": "TransformerBlock",
+        "num_heads": 4,
+        "mlp_size": 512
+    },
+    "encoder": {
+        "encoder_name": "vit_base_patch14_dinov2",
+        "encoder_params": {
+            "encoder_num_blocks": 12
+        }
+    },
+    "decoder": {
+        "decoder_name": "MLPPatchDecoder",
+        "decoder_params": {
+            "patch_size": 14,
+            "num_patches": 576,
+            "in_dim": 128,
+            "hidden_dim": 1024,
+            "out_dim": 769,
+            "num_layers": 4,
+            "initial_layer_norm": true,
+            "reconstruct_images": true,
+            "num_layers_cnn": 4
+        }
+    }
+}
