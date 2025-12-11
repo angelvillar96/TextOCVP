@@ -75,7 +75,8 @@ chmod +x download_pretrained.sh
   &nbsp;&nbsp;
   [CATER Hard](https://drive.google.com/drive/folders/1xJM7gNDCslpM8MJNYT1fqgiG8yyIl6ue)
 
- - **CLIPort:** Contact the authors at `villar@ais.uni-bonn.de` to get access to this data.
+ - **CLIPort:** Our CLIPort dataset can be downloaded as a Zip file from [DropBox](https://www.dropbox.com/scl/fi/qfpd20jvkzdb2ilj6eilh/PutInBowl.zip?rlkey=pb5dnlbfk0o08ox9bt7nvigx6&st=s1ysr4hq&dl=0).
+    To use this data, donwload the Zip file and extract it into the datasets folder so that its directory structure is: `"./datasets/CLIPort_PutInBowl/`
 
 
 
