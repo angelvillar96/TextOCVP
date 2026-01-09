@@ -1,6 +1,6 @@
 # TextOCVP: Text-Conditioned Object-Centric Video Prediction
 
-Official implementation of: *Object-Centric Image to Video Generation with Language Guidance*  by [Angel Villar-Corrales](http://angelvillarcorrales.com/templates/home.php), [Gjergj Plepi](https://www.linkedin.com/in/gjergj-plepi-928a4b196/) and [Sven Behnke](https://www.ais.uni-bonn.de/behnke/). ArXiv Preprint. 2025.
+Official implementation of: *TextOCVP: Object-Centric Video Prediction with Language Guidance*  by [Angel Villar-Corrales](http://angelvillarcorrales.com/templates/home.php), [Gjergj Plepi](https://www.linkedin.com/in/gjergj-plepi-928a4b196/) and [Sven Behnke](https://www.ais.uni-bonn.de/behnke/). TMLR. 2026.
 
 
 
@@ -270,12 +270,12 @@ This repository is maintained by [Angel Villar-Corrales](http://angelvillarcorra
 Please consider citing our paper if you find our work or repository helpful.
 
 ```
-@article{villar_TextOCVP_2025,
-  title={Object-Centric Image to Video Generation with Language Guidance},
+@article{villar_TextOCVP_2026,
+  title={{TextOCVP}: Object-Centric Video Prediction with Language Guidance},
   author={Villar-Corrales, Angel, and Plepi, Gjergj and Behnke, Sven},
-  journal={arXiv preprint arXiv:2502.11655},
-  year={2025}
+  journal={Transactions on Machine Learning Research (TMLR)},
+  year={2026}
 }
 ```
 
-In case of any questions or problems regarding the project or repository, do not hesitate to contact the authors at `villar@ais.uni-bonn.de`.
+In case of any questions or problems regarding the project or repository, do not hesitate to contact the authors at `angelvillarcorrales@gmail.com`.
